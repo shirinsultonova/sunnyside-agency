@@ -279,7 +279,7 @@
     text-transform: uppercase;
     color: var(--white-color);
   }
-  .hero__title::after{
+  .hero::after{
     margin: 0;
     margin-top: 57px;
     margin-right: auto;
@@ -312,6 +312,7 @@
       background-size: cover;
       background-position: calc(50%) calc(50%);
     }
+    
   }
   @media only screen and (min-width: 560px) {
     .hero{
@@ -896,6 +897,7 @@
   .site-footer{
     padding-bottom: 80px;
     background-color: #90D4C6;
+
   }
   .site-footer__box{
     display: -webkit-box;
